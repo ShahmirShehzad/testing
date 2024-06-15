@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                font-family: arial;
+                color: rgb(150, 150, 150);
+            }
+            .sidebar1 {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(33, 33, 33);
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .image {
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                margin-bottom: 10px;
+            }
+            .sidebar2 {
+                top: 0;
+                bottom: 0;
+                left: 70px;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(55, 55, 55);
+                width: 150px;
+                padding-top: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .l-header {
+                font-weight: bold;
+                color: white;
+                font-size: 14px;
+            }
+            .r-header {
+                font-size: 25px;
+            }
+            .links {
+                margin-bottom: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar1">
+            <img class="image" src="/thumbnails/my-channel.jpeg">
+            <img class="image" src="/thumbnails/channel-1.jpeg">
+            <img class="image" src="/thumbnails/channel-2.jpeg">
+        </div>
+        <div class="sidebar2">
+            <div class="header">
+                <div class="l-header">INFO</div>
+                <div class="r-header">+</div>
+            </div>
+            <div class="links"># new-videos</div>
+            <div class="links"># updates</div>
+            <div class="links"># faq</div>
+        </div>
+    </body>
+</html>

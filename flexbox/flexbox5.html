@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: row;
+                width: 420px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.25);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 4px;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+            .image-container1 {
+                margin-right: 10px;
+            }
+            .image1 {
+                height: 60px;
+                width: 60px;
+                border-radius: 30px;
+                object-fit: cover;
+            }
+            .image-container2 {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(220,220,220);
+                margin-right: 10px;
+            }
+            .email-details-container {
+                flex: 1;
+            }
+            .email-headings {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 5px;
+            }
+            .heading {
+                font-weight: bold;
+                font-family: arial;
+                margin-right: 5px;
+            }
+            .time {
+                font-family: arial;
+                color: rgb(111, 111, 111))
+            }
+            .subheading {
+                line-height: 20px;
+                margin-bottom: 15px;
+                font-family: Arial;
+                margin-bottom: 5px;
+            }
+            .youtube-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-color: rgb(200,200,200);
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 15px;
+                overflow: hidden;
+            }
+            .description {
+                flex: 1;
+            }
+            .link {
+                color: rgb(111, 111, 111);
+                margin-bottom: 3px;
+                font-family: arials;
+            }
+            .video-title {
+                font-family: arial;
+                line-height: 22px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image-container1">
+                <img class="image1" src="/thumbnails/my-channel.jpeg">
+            </div>
+            <div class="email-details-container">
+                <div class="email-headings">
+                    <div class="heading">supersimple.dev</div>
+                    <div class="time">@SuperSimpleDev</div>
+                </div>
+                <div class="subheading">What is backend web development? A complete overview. New video is up!</div>
+                <div class="youtube-container">
+                    <div class="image-container2"></div>
+                    <div class="description">
+                        <div class="link">youtube.com</div>
+                        <div class="video-title">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
